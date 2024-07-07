@@ -1,0 +1,8 @@
+[target.'riscv32imac-esp-espidf']
+runner = "./run.fish"
+
+[build]
+target = "riscv32imac-esp-espidf"
+
+[unstable]
+build-std  = ["std", "panic_abort"]
