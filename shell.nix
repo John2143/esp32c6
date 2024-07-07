@@ -3,7 +3,7 @@
 pkgs.mkShell {
   name = "esp-idf-env";
   buildInputs = with pkgs; [
-    (pkgs.callPackage ./esp32-toolchain.nix {})
+    (pkgs.callPackage ./esp-toolchain.nix {})
 
     git
     wget
